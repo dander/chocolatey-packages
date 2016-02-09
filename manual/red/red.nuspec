@@ -15,13 +15,12 @@ Red has its own complete cross-platform toolchain, featuring two compilers, an i
 The Red software stack also contains another language, **Red/System**, which is a low-level dialect of Red. It is a limited C-level language with a Red look'n feel, required to build Red's runtime library and be the target language of Red's compiler. More information at [red-lang.org](http://www.red-lang.org). 
     </description>
     <projectUrl>http://www.red-lang.org/</projectUrl>
-    <!-- <packageSourceUrl></packageSourceUrl> -->
+    <packageSourceUrl>https://github.com/dander/chocolatey-packages/tree/master/manual/red</packageSourceUrl>
     <projectSourceUrl>https://github.com/red/red</projectSourceUrl>
     <docsUrl>http://www.red-lang.org/p/documentation.html</docsUrl>
     <mailingListUrl>https://groups.google.com/forum/#!forum/red-lang</mailingListUrl>
     <bugTrackerUrl>https://github.com/red/red/issues</bugTrackerUrl>
     <tags>red programming language rebol</tags>
-    <copyright></copyright>
     <licenseUrl>http://www.opensource.org/licenses/bsd-3-clause http://www.boost.org/users/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/red.png</iconUrl>-->
