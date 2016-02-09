@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>red</id>
+    <title>Red</title>
+    <version>0.5.4</version>
+    <authors>Nenad Rakocevic (dockimbel), Red development team</authors>
+    <owners>Dave Andersen</owners>
+    <summary>The red toolchain, consisting of a single file: red.exe</summary>
+    <description>**Red** is a new programming language strongly inspired by [Rebol](http://rebol.com), but with a broader field of usage thanks to its native-code compiler, from system programming to high-level scripting, while providing modern support for concurrency and multi-core CPUs. 
+
+Red has its own complete cross-platform toolchain, featuring two compilers, an interpreter and a linker, not depending on any third-party library, except for a Rebol2 interpreter, required during the bootstrap phase. Once complete, Red will be [self-hosted](http://en.wikipedia.org/wiki/Self-hosting).
+
+The Red software stack also contains another language, **Red/System**, which is a low-level dialect of Red. It is a limited C-level language with a Red look'n feel, required to build Red's runtime library and be the target language of Red's compiler. More information at [red-lang.org](http://www.red-lang.org). 
+    </description>
+    <projectUrl>http://www.red-lang.org/</projectUrl>
+    <!-- <packageSourceUrl></packageSourceUrl> -->
+    <projectSourceUrl>https://github.com/red/red</projectSourceUrl>
+    <docsUrl>http://www.red-lang.org/p/documentation.html</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/red-lang</mailingListUrl>
+    <bugTrackerUrl>https://github.com/red/red/issues</bugTrackerUrl>
+    <tags>red programming language rebol</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-3-clause http://www.boost.org/users/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/red.png</iconUrl>-->
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+</package>
