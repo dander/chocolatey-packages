@@ -21,9 +21,11 @@ The Red software stack also contains another language, **Red/System**, which is 
     <mailingListUrl>https://groups.google.com/forum/#!forum/red-lang</mailingListUrl>
     <bugTrackerUrl>https://github.com/red/red/issues</bugTrackerUrl>
     <tags>red programming language rebol</tags>
-    <licenseUrl>http://www.opensource.org/licenses/bsd-3-clause http://www.boost.org/users/license.html</licenseUrl>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-3-clause</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/red.png</iconUrl>-->
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <iconUrl>http://cdn.rawgit.com/dander/chocolatey-packages/48612a4180f560da7382beab48c306b3c45b4eb5/icons/Red.png</iconUrl>
+    <releaseNotes>New datatypes, exceptions and set operations.
+
+See the [blog posting](http://www.red-lang.org/2015/06/054-new-datatypes-exceptions-and-set.html) for more details.</releaseNotes>
   </metadata>
 </package>
