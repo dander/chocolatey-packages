@@ -3,9 +3,9 @@ $scriptPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $webFileArgs = @{
   packageName = 'red'
-  url = 'http://static.red-lang.org/dl/win/red-061.exe'
+  url = 'http://static.red-lang.org/dl/win/red-062.exe'
   fileFullPath = Join-Path $scriptPath 'red.exe'
-  checksum = '0101618ec6971509e117e290b807f471dfb78c57'
+  checksum = '0D3E2A581F7A3F2309447064FEE30C620390FBCA'
   checksumType = 'sha1'
 }
 

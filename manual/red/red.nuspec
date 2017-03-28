@@ -4,7 +4,7 @@
   <metadata>
     <id>red</id>
     <title>Red</title>
-    <version>0.6.1</version>
+    <version>0.6.2</version>
     <authors>Nenad Rakocevic (dockimbel) and Red development team</authors>
     <owners>Dave Andersen</owners>
     <summary>The red toolchain, consisting of a single file: red.exe</summary>
@@ -24,14 +24,18 @@ The Red software stack also contains another language, **Red/System**, which is 
     <licenseUrl>http://www.opensource.org/licenses/bsd-3-clause</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/dander/chocolatey-packages/48612a4180f560da7382beab48c306b3c45b4eb5/icons/Red.png</iconUrl>
-    <releaseNotes>Reactive Programming
+    <releaseNotes>LibRed and Macros
 
-- Reactive programming model added to core language
-- Time! datatype added
-- GUI improvements, including timer support
-- Many other improvements
+- Macros and preprocessor support
+- Fast compilation using libRedRT
+- LibRed for embedding Red anywhere
+- New datatypes: tag!, email!
+- New action: to
+- New natives: as, call
+- New functions: tag?, email?, hex-to-rgb, sqrt, class-of, face?, distance?, - expand-directives, to-*, rejoin
+- Many other new features/improvements
 - Many bugfixes
 
-See the [blog posting](http://www.red-lang.org/2016/06/061-reactive-programming.html) for more details.</releaseNotes>
+See the [blog posting](http://www.red-lang.org/2017/03/062-libred-and-macros.html) for more details.</releaseNotes>
   </metadata>
 </package>
