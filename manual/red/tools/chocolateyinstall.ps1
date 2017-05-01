@@ -5,7 +5,7 @@ $webFileArgs = @{
   packageName = 'red'
   url = 'http://static.red-lang.org/dl/win/red-062.exe'
   fileFullPath = Join-Path $scriptPath 'red.exe'
-  checksum = '0D3E2A581F7A3F2309447064FEE30C620390FBCA'
+  checksum = 'AE146E1B3E8EF6F37BB2ED94AC3BA9B23013269A'
   checksumType = 'sha1'
 }
 
