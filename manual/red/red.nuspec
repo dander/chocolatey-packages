@@ -4,7 +4,7 @@
   <metadata>
     <id>red</id>
     <title>Red</title>
-    <version>0.6.2</version>
+    <version>0.6.2.20170501</version>
     <authors>Nenad Rakocevic (dockimbel) and Red development team</authors>
     <owners>Dave Andersen</owners>
     <summary>The red toolchain, consisting of a single file: red.exe</summary>
