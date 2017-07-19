@@ -4,7 +4,7 @@
   <metadata>
     <id>red</id>
     <title>Red</title>
-    <version>0.6.2.20170501</version>
+    <version>0.6.3</version>
     <authors>Nenad Rakocevic (dockimbel) and Red development team</authors>
     <owners>Dave Andersen</owners>
     <summary>The red toolchain, consisting of a single file: red.exe</summary>
@@ -24,18 +24,19 @@ The Red software stack also contains another language, **Red/System**, which is 
     <licenseUrl>http://www.opensource.org/licenses/bsd-3-clause</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/dander/chocolatey-packages/48612a4180f560da7382beab48c306b3c45b4eb5/icons/Red.png</iconUrl>
-    <releaseNotes>LibRed and Macros
+    <releaseNotes>macOS GUI backend
 
-- Macros and preprocessor support
-- Fast compilation using libRedRT
+- GUI support for macOS
+- Cross-Platform GUI Metrics (platform specific rules)
 - LibRed for embedding Red anywhere
-- New datatypes: tag!, email!
-- New action: to
-- New natives: as, call
-- New functions: tag?, email?, hex-to-rgb, sqrt, class-of, face?, distance?, - expand-directives, to-*, rejoin
-- Many other new features/improvements
-- Many bugfixes
+- New date! datatype
+- New IO functions: delete, size?
+- New cached versions of functions which make disk access
+- Improved type support of core functions
+- LibRed improvements
+- GUI testing support
+- Dozens of other improvemnts and bugfixes
 
-See the [blog posting](http://www.red-lang.org/2017/03/062-libred-and-macros.html) for more details.</releaseNotes>
+See the [blog post](http://www.red-lang.org/2017/07/063-macos-gui-backend.html) for detailed release notes.</releaseNotes>
   </metadata>
 </package>
