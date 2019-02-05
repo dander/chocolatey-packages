@@ -4,7 +4,7 @@
   <metadata>
     <id>red</id>
     <title>Red</title>
-    <version>0.6.3.20171222</version>
+    <version>0.6.4</version>
     <authors>Nenad Rakocevic (dockimbel) and Red development team</authors>
     <owners>Dave Andersen</owners>
     <summary>The red toolchain, consisting of a single file: red.exe</summary>
@@ -24,19 +24,13 @@ The Red software stack also contains another language, **Red/System**, which is 
     <licenseUrl>http://www.opensource.org/licenses/bsd-3-clause</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://cdn.rawgit.com/dander/chocolatey-packages/48612a4180f560da7382beab48c306b3c45b4eb5/icons/Red.png</iconUrl>
-    <releaseNotes>macOS GUI backend
+    <releaseNotes>Simple GC and Pure Red GUI Console
 
-- GUI support for macOS
-- Cross-Platform GUI Metrics (platform specific rules)
-- LibRed for embedding Red anywhere
-- New date! datatype
-- New IO functions: delete, size?
-- New cached versions of functions which make disk access
-- Improved type support of core functions
-- LibRed improvements
-- GUI testing support
-- Dozens of other improvemnts and bugfixes
+- 'Simple' Garbage collector
+- Pure Red GUI console
+- Rich-text style for formatted text
+- 167 improvemnts and bugfixes
 
-See the [blog post](http://www.red-lang.org/2017/07/063-macos-gui-backend.html) for detailed release notes.</releaseNotes>
+See the [blog post](https://www.red-lang.org/2018/12/064-simple-gc-and-pure-red-gui-console.html) for detailed release notes.</releaseNotes>
   </metadata>
 </package>
